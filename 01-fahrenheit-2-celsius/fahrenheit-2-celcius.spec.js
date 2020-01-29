@@ -32,15 +32,15 @@ describe('the fahrenheit-celcius canary spec', () => {
       expect(fahrenheit2celcius(-40)).toBe(-40);
     });
 /* second section */
-    it('converts 10 C to 50 C', () => {
+    it('converts 10 C to 50 F', () => {
       expect(celcius2fahrenheit(10)).toBe(50);
     });
 
-    it('convert 212 F to 100 C', () => {
+    it('convert 100 C to 212 F', () => {
       expect(celcius2fahrenheit(100)).toBe(212);
     });
 
-    it('convert 0 C to 32 C', () => {
+    it('convert 0 C to 32 F', () => {
       expect(celcius2fahrenheit(0)).toBe(32);
     });
 
