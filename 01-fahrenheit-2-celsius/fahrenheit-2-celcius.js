@@ -3,4 +3,9 @@ let fahrenheit2celcius = (fahrenheit) => {
     return celcius;
 }
 
-module.exports = { fahrenheit2celcius};
+let celcius2fahrenheit = (celcius) => {
+    fahrenheit = (celcius * 9 / 5) +32;
+    return fahrenheit;
+}
+
+module.exports = { fahrenheit2celcius, celcius2fahrenheit};
